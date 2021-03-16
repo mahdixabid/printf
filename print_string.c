@@ -2,7 +2,7 @@
 
 /**
 * print_c - Print character
-* @ar_list: Store the a list of characters
+* @ap: argument pointer
 * Return: num of parameters printed
 */
 int print_c(va_list ap)
@@ -16,7 +16,7 @@ int print_c(va_list ap)
 
 /**
 * print_s - print string
-* @ar_list: Store the a list of characters
+* @ap: argument po0inter
 * Return: num of parameters printed
 */
 int print_s(va_list ap)
@@ -45,4 +45,3 @@ int print_percent(va_list arg)
 
 	_putchar('%');
 	return (1);
-}
