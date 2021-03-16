@@ -1,11 +1,11 @@
 ![header](https://fv2-2.failiem.lv/thumb_show.php?i=mpc88ztpf&view "header")
 
-# 📰 
+# 📰
  > #####  DESCRIPTION :
 
 We had to create a printf with all of its characteristics, such as the type of format, length modifiers, and so on.
 
-> #####  printf : 
+> #####  printf :
 
 printf in c programming leanguage, printf() function is used to print ("character,string,float,integer,octal,and hexadecimal values") onto the output screen.
 [more info](https://en.wikipedia.org/wiki/Printf_format_string "more info")
@@ -13,7 +13,7 @@ printf in c programming leanguage, printf() function is used to print ("characte
 > ##### Function prototype
 
  ```int _printf(const char *format, ...);```
-# 🖇  
+# 🖇
 > ###### Examples
 
 *String:*
@@ -41,7 +41,7 @@ printf in c programming leanguage, printf() function is used to print ("characte
 - output :  ```1000 ```
 
 
-# 🚩 
+# 🚩
 > ##### Requiment :
 
 1. Linux
@@ -59,19 +59,19 @@ printf in c programming leanguage, printf() function is used to print ("characte
 
 
 
-# 📁 
+# 📁
 > ##### Files Required :
 
-| File | Description | 
+| File | Description |
 | --- | --- |
-| _putchar.c | a file that contain putchar config | 
+| _putchar.c | a file that contain putchar config |
 | _holberton.h |  contain all prototypes |
 | get-function.c | a file contain printf function |
 | print_number.c | a file that contain all structers |
 | print_string.c | a file that contain number function |
 | printf.c | a file that contain string function |
 
-#  📦  
+#  📦
 > ##### Instructions to clone our repository :
 
 ```sudo apt-get install git```

@@ -27,7 +27,7 @@ _printf produces output according to a format string. It will write output
 .br
 .B Return value
 .br
-In case of success _printf returns total number of Characters Printed, Or negative value if an output error or an encoding error 
+In case of success _printf returns total number of Characters Printed, Or negative value if an output error or an encoding error
 
 .SH BUGS
 Unfinished, Contact mahdiabid158@gmail.com or omar.yahia4444@gmail.com  for any complaints.
