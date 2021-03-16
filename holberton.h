@@ -24,5 +24,6 @@ int get_func(char s, va_list ap);
 int print_s(va_list ap);
 int print_d(va_list n);
 int print_i(int n);
+int print_percent(va_list arg);
 
 #endif
