@@ -1,0 +1,39 @@
+.TH man 1 "March 16 2021" "0.1" "_printf function"
+.SH NAME
+.B _printf -custom project of printf function
+print Format (argument)
+.SH SYNOPSIS
+.B #include "holberton.h"
+.B int _printf(const char *
+.B _printf(
+    - project to be done in team with 2 people
+)
+.SH DESCRIPTION
+_printf produces output according to a format string. It will write output
+
+
+.SH Conversion specifiers
+.B %c
+- prints a character
+.br
+.B %%
+- prints a %
+.br
+.B %s
+- prints a string
+.br
+.B %d && %i
+- prints an integer
+.br
+.B Return value
+.br
+In case of success _printf returns total number of Characters Printed, Or negative value if an output error or an encoding error 
+
+.SH BUGS
+Unfinished, Contact mahdiabid158@gmail.com or omar.yahia4444@gmail.com  for any complaints.
+
+.SH CREDITS
+.PP
+
+.SH AUTHOR
+OMAR YAHIA | MAHDi ABiD
