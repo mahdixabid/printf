@@ -10,7 +10,7 @@ int print_d(va_list args)
 {
 
 	unsigned int d, x, countnum, count = 0;
-	int n;
+	unsigned int n;
 
 	n = va_arg(args, int);
 
