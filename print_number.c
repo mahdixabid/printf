@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdarg.h>
 
 /**
  * print_d - prints a decimal
