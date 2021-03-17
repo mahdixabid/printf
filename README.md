@@ -66,10 +66,10 @@ printf in c programming leanguage, printf() function is used to print ("characte
 | --- | --- |
 | _putchar.c | a file that contain putchar config |
 | _holberton.h |  contain all prototypes |
-| get-function.c | a file contain printf function |
-| print_number.c | a file that contain all structers |
-| print_string.c | a file that contain number function |
-| printf.c | a file that contain string function |
+| get-function.c | a file contain printf functions |
+| print_number.c | a file that contain integer and decimal numbers |
+| print_string.c | a file that contain string/number/percent functions |
+| printf.c | a file that contain printf format |
 
 #  📦
 > ##### Instructions to clone our repository :
