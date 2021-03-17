@@ -10,8 +10,31 @@ print Format (argument)
 )
 .SH DESCRIPTION
 _printf produces output according to a format string. It will write output
-
-
+.SH EXEMPELS
+String:
+.br
+input : _printf("%s", this is a string);
+.br
+output : this is a string
+.br
+Character :
+.br
+input : _printf("%s", this is a string);
+.br
+output : this is a string
+.br
+Integer :
+.br
+input : _printf("%i",20);
+.br
+output : 20
+.br
+Decimal :
+.br
+input : _printf("%d",1000);
+.br
+output : 1000
+.br
 .SH Conversion specifiers
 .B %c
 - prints a character
