@@ -52,7 +52,7 @@ int validate(char s)
 		{'s', NULL},
 		{'d', NULL},
 		{'i', NULL},
-		{"R", NULL},
+		{'R', print_rot13},
 		{0, NULL}
 	};
 
