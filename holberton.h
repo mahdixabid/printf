@@ -25,6 +25,6 @@ int print_s(va_list ap);
 int print_percent(va_list arg);
 int print_d(va_list args);
 int print_i(va_list args);
-int print_rot13(char *s);
+int print_R(char *s);
 
 #endif
