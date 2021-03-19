@@ -2,6 +2,7 @@
 /**
 * get_func - return the correct function
 * @s: array to check
+* @ap: va_list
 * Return: return a function
 */
 int get_func(char s, va_list ap)
@@ -11,7 +12,7 @@ int get_func(char s, va_list ap)
 		{'s', print_s},
 		{'d', print_d},
 		{'i', print_i},
-		{"R", rot13_format},
+		/**{"R", rot13_format},*/
 		{0, NULL}
 	};
 
