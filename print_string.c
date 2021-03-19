@@ -47,32 +47,34 @@ int print_percent(va_list arg)
 }
 
 /**
-* p_rot13 - print a string how rot13
+* print_rot13 - print a string how rot13
 * @a: args passed
-* Return: lenght of string
+* Return: str
 */
-int p_rot13(char *a)
+int print_rot13(va_list arg)
 {
-	int count = 0;
-	int x = 0;
-	int s = 0;
-	char z[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char b[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char *str;
+	int i, j;
+	char ch1[] = "ABCDEFGHIJKLMabcdefghijklmNOPQRSTUVWXYZnopqrstuvwxyz";
+	char ch2[] = "NOPQRSTUVWXYZnopqrstuvwxyzABCDEFGHIJKLMabcdefghijklm";
 
-	for (x = 0; a[x] != '\0'; x++)
+	str = va_arg(arg, char *);
+	if (str == NULL)
 	{
-		for (s = 0; z[s] != '\0'; s++)
+		str = "(ahyy)";
+	}
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		for (j = 0; j <= 52; j++)
 		{
-			if (a[x] == z[s])
+			if (str[i] == ch1[j])
 			{
-				count += _putchar(b[s]);
+				_putchar(ch2[j]);
 				break;
 			}
 		}
-		if (s > 51)
-		{
-			count += _putchar(a[x]);
-		}
+		if (j == 53)
+		_putchar(str[i]);
 	}
-	return (count);
+	return (i);
 }
