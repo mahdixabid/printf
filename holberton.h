@@ -24,5 +24,6 @@ int print_s(va_list ap);
 int print_percent(va_list arg);
 int print_d(va_list args);
 int print_i(va_list args);
+int rot13_format(char **str, va_list args);
 
 #endif
