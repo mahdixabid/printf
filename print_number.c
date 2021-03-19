@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * print_d - prints a decimal
- * @args: decimal argument
- * Return: counter
- */
+* print_d - prints a decimal
+* @args: decimal argument
+* Return: counter
+*/
 int print_d(va_list args)
 {
 
