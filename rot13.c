@@ -8,7 +8,7 @@
 *
 *Return: int
 */
-int rot13_format(char **str, va_list args)
+int print_rot13(char **str, va_list args)
 {
 	char *s;
 	char *rot;
