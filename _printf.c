@@ -53,7 +53,7 @@ int validate(char s)
 		{'d', NULL},
 		{'i', NULL},
 		{'R', print_rot13},
-		int print_r(va_list r);
+		{"r", print_r},
 		{0, NULL}
 	};
 
