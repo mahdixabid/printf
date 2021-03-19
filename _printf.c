@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdlib.h>
+#include <stdarg.h>
 /**
  * _printf - printing function.
  * @format: liste of arguments
