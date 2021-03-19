@@ -16,12 +16,17 @@ int get_func(char s, va_list ap)
 		{0, NULL}
 	};
 
-	int i;
+	int i, count = 0;
 
 	for (i = 0; ops[i].c != 0; i++)
 	{
 		if (ops[i].c == s)
-			return (ops[i].f(ap));
+		{
+			count += ops[i].f(ap);
+			return (count);
+
+
+		}
 	}
 	return (0);
 }

@@ -16,7 +16,7 @@ typedef struct op
 	char c;
 	int (*f)(va_list);
 } op_t;
-
+int validate(char s);
 int _printf(const char *format, ...);
 int _putchar(char c);
 int print_c(va_list ap);

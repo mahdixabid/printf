@@ -25,8 +25,9 @@ int _printf(const char *format, ...)
 				j++;
 				i++;
 			}
-			else if (get_func(*(format + (i + 1)), arg) != 0)
+			else if (validate(*(format + (i + 1))) == 1)
 			{
+				j += get_func(*(format + (i + 1)), arg);
 				i++;
 			}
 		}
@@ -38,4 +39,31 @@ int _printf(const char *format, ...)
 	}
 	va_end(arg);
 	return (j);
+}
+/**
+ * validate - validate type and convertion
+ * @s: to validate
+ * Return: 1 if found 0 if not
+ */
+int validate(char s)
+{
+		op_t ops[] = {
+		{'c', NULL},
+		{'s', NULL},
+		{'d', NULL},
+		{'i', NULL},
+		/**{"R", rot13_format},*/
+		{0, NULL}
+	};
+
+	int i;
+
+	for (i = 0; ops[i].c != 0; i++)
+	{
+		if (ops[i].c == s)
+		{
+			return (1);
+		}
+	}
+	return (0);
 }
