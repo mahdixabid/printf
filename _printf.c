@@ -52,7 +52,7 @@ int validate(char s)
 		{'s', NULL},
 		{'d', NULL},
 		{'i', NULL},
-		/**{"R", rot13_format},*/
+		{"R", NULL},
 		{0, NULL}
 	};
 
