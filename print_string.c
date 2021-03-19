@@ -48,7 +48,7 @@ int print_percent(va_list arg)
 
 /**
 * print_rot13 - print a string how rot13
-* @a: args passed
+* @arg: args passed
 * Return: str
 */
 int print_rot13(va_list arg)
