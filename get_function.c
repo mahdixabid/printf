@@ -11,7 +11,7 @@ int get_func(char s, va_list ap)
 		{'s', print_s},
 		{'d', print_d},
 		{'i', print_i},
-		{"R", print_rot13},
+		{"R", rot13_format},
 		{0, NULL}
 	};
 

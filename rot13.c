@@ -2,13 +2,13 @@
 #include "holberton.h"
 
 /**
-*rot13_format - prints the rot13'ed string
+*print_rot13 - prints the rot13'ed string
 *@str: char to be written
 *@args: argument
 *
 *Return: int
 */
-int print_rot13(char **str, va_list args)
+int rot13_format(char **str, va_list args)
 {
 	char *s;
 	char *rot;
