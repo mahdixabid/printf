@@ -47,11 +47,11 @@ int print_percent(va_list arg)
 }
 
 /**
-* print_rot13 - print a string how rot13
+* p_rot13 - print a string how rot13
 * @a: args passed
 * Return: lenght of string
 */
-int print_R(char *a)
+int p_rot13(char *a)
 {
 	int count = 0;
 	int x = 0;

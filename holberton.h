@@ -1,10 +1,10 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-#include <unistd.h>
-#include <stdarg.h>
 #include <stdio.h>
+#include <stdarg.h>
 #include <stdlib.h>
-
+#include <string.h>
+#include <unistd.h>
 /**
 * struct op - flag / function object
 * @c: flag
@@ -25,6 +25,6 @@ int print_s(va_list ap);
 int print_percent(va_list arg);
 int print_d(va_list args);
 int print_i(va_list args);
-int print_R(char *s);
-
+int p_rot13(char *s);
+int print_R(va_list valist);
 #endif
