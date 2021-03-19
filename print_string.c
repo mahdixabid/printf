@@ -78,3 +78,27 @@ int print_rot13(va_list arg)
 	}
 	return (i);
 }
+
+#include "holberton.h"
+/**
+ * print_r - prints a string in reverse
+ * @rev: string to print
+ * Return: number of chars printed
+ */
+int print_r(va_list rev)
+{
+	char *str;
+	int i, count = 0;
+
+	str = va_arg(rev, char *);
+	if (str == NULL)
+		str = ")llun(";
+	for (i = 0; str[i]; i++)
+		;
+	for (i = i - 1; i >= 0; i--)
+	{
+		_putchar(str[i]);
+		count++;
+	}
+	return (count);
+}

@@ -13,6 +13,7 @@ int get_func(char s, va_list ap)
 		{'d', print_d},
 		{'i', print_i},
 		{'R', print_rot13},
+		{"r", print_r},
 		{0, NULL}
 	};
 
